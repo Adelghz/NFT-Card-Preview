@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 620px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-self: center;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.main {
+    margin: 10px 0 10px 0;
+}
+
+.main h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.main p {
+    color: hsl(215, 29%, 36%);
+    margin: 10px 0 20px 10px;
+    padding: 10px;
+}
+
+.line {
+    border-top: 1px solid rgb(113, 109, 99);
+    width: 300px;
+    height: 1px;
+    margin-top: 15px;
+}
+
+.creator {
+    display: flex;
+    height: 30px;
+    width: 300px;
+    align-items: first baseline;
+    margin-top: 15px;
+}
+
+.creator img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0;
+}
+
+#me {
+    color: aliceblue;
+    margin-left: 3px;
+}
+
+.creator p {
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 8px;
+    color: hsl(215, 29%, 36%);
+}
+
+.svg {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: justify;
+    width: 300px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.svg p {
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+.svg img {
+    width: 20px;
+    height: 20px;
+}
+
+.ethereum {
+    width: 50px;
+    height: 30px;
+}
+
+#eth {
+    color: hsl(178, 100%, 50%);
+}
