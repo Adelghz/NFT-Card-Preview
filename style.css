@@ -122,3 +122,26 @@ body {
 #eth {
     color: hsl(178, 100%, 50%);
 }
+
+.image {
+    position: relative;
+}
+.image::after {
+    /* Place the ::after on top of image container */
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    /* Place icon in center of div*/
+    display: grid;
+    place-items: center;
+    content: url(images/icon-view.svg);
+    background-color: hsl(215, 51%, 70%);
+    cursor: pointer;
+    opacity: 0;
+}
+/* change the state of the pseudo-element based on hover of the parent */
+.image:hover::after {
+    opacity: 0.4;
+}
